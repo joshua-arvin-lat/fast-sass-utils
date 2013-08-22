@@ -6,6 +6,15 @@ Requires Compass for font-face mixin
 Font
 ----
 
-~~~ sass
+~~~ scss
 @include load-font("FontFamily","folder/font-file-name");
+~~~
+
+Dimensions
+----------
+
+~~~ scss
+.w500 {
+  @include force-height(500px);
+}
 ~~~
