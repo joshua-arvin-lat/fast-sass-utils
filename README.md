@@ -22,7 +22,7 @@ Layout Classes
 <div class='left'>Content</div>
 <div class='left'>Content</div>
 <div class='right'>Content</div>
-<div class='clear'>Clear Fix</div>
+<div class='clear'></div>
 ~~~
 
 Dimensions
