@@ -1,0 +1,195 @@
+@import 'compass/css3/font-face';
+
+@mixin load-font($name, $filename) {
+  @include font-face(
+    "#{$name}",
+    font-files(
+        "#{$filename}.woff", woff,
+        "#{$filename}.ttf", truetype,
+        "#{$filename}.svg##{$name}", svg),
+    '#{$filename}.eot',
+    normal,
+    normal);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float : right;
+}
+
+.clear {
+  clear: both;
+}
+
+.hidden, .hide {
+  display: none;
+}
+
+@mixin margin-top($x) {
+  margin-top: $x !important;
+}
+
+@mixin margin-bottom($x) {
+  margin-bottom: $x !important;
+}
+
+@mixin margin-left($x) {
+  margin-left: $x !important;
+}
+
+@mixin margin-right($x) {
+  margin-left: $x !important;
+}
+
+@mixin padding-top($x) {
+  padding-top: $x !important;
+}
+
+@mixin padding-left($x) {
+  padding-left: $x !important;
+}
+
+@mixin padding-right($x) {
+  padding-right: $x !important;
+}
+
+@mixin padding-bottom($x) {
+  padding-bottom: $x !important;
+}
+
+.top10 {
+  @include margin-top(10px);
+}
+
+.top20 {
+  @include margin-top(20px);
+}
+
+.top30 {
+  @include margin-top(30px);
+}
+
+.bottom10 {
+  @include margin-bottom(10px);
+}
+
+.bottom20 {
+  @include margin-bottom(20px);
+}
+
+.bottom30 {
+  @include margin-bottom(30px);
+}
+
+.left10 {
+  @include margin-left(10px);
+}
+
+.left20 {
+  @include margin-left(20px);
+}
+
+.left30 {
+  @include margin-left(30px);
+}
+
+.right10 {
+  @include margin-right(10px);
+}
+
+.right20 {
+  @include margin-right(20px);
+}
+
+.right30 {
+  @include margin-right(30px);
+}
+
+.auto-center-margin {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.pad-left-10 {
+  @include padding-left(10px);
+}
+
+.pad-left-20 {
+  @include padding-left(20px);
+}
+
+.pad-left-30 {
+  @include padding-left(30px);
+}
+
+.pad-right-10 {
+  @include padding-right(10px);
+}
+
+.pad-right-20 {
+  @include padding-right(20px);
+}
+
+.pad-right-30 {
+  @include padding-right(30px);
+}
+
+.pad-top-10 {
+  @include padding-top(10px);
+}
+
+.pad-top-20 {
+  @include padding-top(20px);
+}
+
+.pad-top-30 {
+  @include padding-top(30px);
+}
+
+.pad-bottom-10 {
+  @include padding-bottom(10px);
+}
+
+.pad-bottom-20 {
+  @include padding-bottom(20px);
+}
+
+.pad-bottom-30 {
+  @include padding-bottom(30px);
+}
+
+@mixin force-width($x) {
+  width: $x;
+  max-width: $x;
+  min-width: $x;
+}
+
+@mixin force-height($y) {
+  height: $y;
+  max-height: $y;
+  min-height: $y;
+}
+
+.m960 {
+  width: 960px;
+  @include margin-center();
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: green;
+}
