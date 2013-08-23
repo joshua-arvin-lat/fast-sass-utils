@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <title>Fast-sass-utils by joshua-arvin-lat</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Fast-sass-utils</h1>
+        <h2>Small SASS / SCSS collection of utilities</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/joshua-arvin-lat/fast-sass-utils/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/joshua-arvin-lat/fast-sass-utils/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/joshua-arvin-lat/fast-sass-utils" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="fast-sass--scss-utils" class="anchor" href="#fast-sass--scss-utils"><span class="octicon octicon-link"></span></a>Fast SASS / SCSS Utils</h1>
+
+<p>Requires Compass for font-face mixin</p>
+
+<h2>
+<a name="font" class="anchor" href="#font"><span class="octicon octicon-link"></span></a>Font</h2>
+
+<div class="highlight"><pre><span class="k">@include</span><span class="nd"> load-font</span><span class="p">(</span><span class="s2">"FontFamily"</span><span class="o">,</span><span class="s2">"folder/font-file-name"</span><span class="p">);</span>
+</pre></div>
+
+<h2>
+<a name="layout-classes" class="anchor" href="#layout-classes"><span class="octicon octicon-link"></span></a>Layout Classes</h2>
+
+<ul>
+<li>left</li>
+<li>right</li>
+<li>clear</li>
+</ul><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'left'</span><span class="nt">&gt;</span>Content<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'left'</span><span class="nt">&gt;</span>Content<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'left'</span><span class="nt">&gt;</span>Content<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'right'</span><span class="nt">&gt;</span>Content<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">'clear'</span><span class="nt">&gt;&lt;/div&gt;</span>
+</pre></div>
+
+<h2>
+<a name="dimensions" class="anchor" href="#dimensions"><span class="octicon octicon-link"></span></a>Dimensions</h2>
+
+<div class="highlight"><pre><span class="nc">.h500</span> <span class="p">{</span>
+  <span class="k">@include</span><span class="nd"> force-height</span><span class="p">(</span><span class="mi">500</span><span class="kt">px</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="nc">.w500</span> <span class="p">{</span>
+  <span class="k">@include</span><span class="nd"> force-width</span><span class="p">(</span><span class="mi">500</span><span class="kt">px</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+
+<h2>
+<a name="quick-background-classes" class="anchor" href="#quick-background-classes"><span class="octicon octicon-link"></span></a>Quick Background Classes</h2>
+
+<ul>
+<li>bg-white<br>
+</li>
+<li>bg-red<br>
+</li>
+<li>bg-blue<br>
+</li>
+<li>bg-green</li>
+</ul><h2>
+<a name="quick-padding-classes" class="anchor" href="#quick-padding-classes"><span class="octicon octicon-link"></span></a>Quick Padding Classes</h2>
+
+<ul>
+<li>pad-top-10, pad-top-20, pad-top-30</li>
+<li>pad-bottom-10, pad-bottom-20, pad-bottom-30</li>
+<li>pad-right-10, pad-right-20, pad-right-30</li>
+<li>pad-left-10, pad-left-20, pad-left-30</li>
+</ul><h2>
+<a name="quick-margin-classes" class="anchor" href="#quick-margin-classes"><span class="octicon octicon-link"></span></a>Quick Margin Classes</h2>
+
+<ul>
+<li>right10, right20, right30</li>
+<li>left10, left20, left30</li>
+<li>bottom10, bottom20, bottom30</li>
+<li>top10, top20, top30</li>
+</ul><h2>
+<a name="acknowledgements" class="anchor" href="#acknowledgements"><span class="octicon octicon-link"></span></a>Acknowledgements</h2>
+
+<p>© 2013, Joshua Arvin Lat. Released under the <a href="LICENSE">MIT License</a>.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
