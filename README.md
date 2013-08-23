@@ -61,3 +61,8 @@ Quick Margin Classes
 - left10, left20, left30
 - bottom10, bottom20, bottom30
 - top10, top20, top30
+
+Acknowledgements
+----------------
+
+© 2013, Joshua Arvin Lat. Released under the [MIT License](LICENSE).
